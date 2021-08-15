@@ -1,0 +1,32 @@
+import turtle
+t = turtle.Turtle()
+
+#head
+t.circle(50)
+
+#neck
+t.right(90)
+t.forward(30)
+t.right(90)
+
+#arms
+t.forward(50)
+t.backward(100)
+t.forward(50)
+t.left(90)
+
+#waist
+t.forward(80)
+
+#legs
+t.left(45)
+t.forward(100)
+t.backward(100)
+t.right(90)
+t.forward(100)
+
+
+
+
+
+turtle.done()
